@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://www.priyanshu.vercel.app/sitemap.xml
