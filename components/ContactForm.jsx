@@ -81,7 +81,7 @@ const ContactForm = () => {
     <div className="space-y-4 text-white/50">
       <h3 className="text-2xl md:text-4xl text-lightSky">Let&apos;s work together</h3>
       <p>
-      Have a project in mind? Whether you need a custom website, an e-commerce platform, or a full-stack application, I'm here to help bring your ideas to life. Let's build something amazing together!
+      Have a project in mind? Whether you need a custom website, an e-commerce platform, or a full-stack application, I&apos;m here to help bring your ideas to life. Let&apos;s build something amazing together!
       </p>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div className="flex flex-col md:flex-row gap-4 w-full">
