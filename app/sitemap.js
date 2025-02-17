@@ -1,31 +1,31 @@
 export default function sitemap() {
   return [
     {
-      url: "https://www.priyanshu.vercel.app",
+      url: "https://www.priyanshujain.vercel.app",
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,
     },
     {
-      url: "https://www.priyanshu.vercel.app/services",
+      url: "https://www.priyanshujain.vercel.app/services",
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,
     },
     {
-      url: "https://www.priyanshu.vercel.app/resume",
+      url: "https://www.priyanshujain.vercel.app/resume",
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,
     },
     {
-      url: "https://www.priyanshu.vercel.app/work",
+      url: "https://www.priyanshujain.vercel.app/work",
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,
     },
     {
-      url: "https://www.priyanshu.vercel.app/contact",
+      url: "https://www.priyanshujain.vercel.app/contact",
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,
