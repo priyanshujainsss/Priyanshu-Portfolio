@@ -26,7 +26,7 @@ export const metadata = {
     siteName: "Priyanshu Jain | React & Next.js Developer",
     images: [
       {
-        url: "https://priyanshujain.vercel.app/Priyanshu.jpg", // Ensure this image exists at this URL
+        url: "https://priyanshujain.vercel.app/Priyanshu.webp", // Ensure this image exists at this URL
         width: 1200,
         height: 630,
         alt: "Priyanshu Jain - Web Developer",
@@ -61,7 +61,7 @@ export default function RootLayout({ children }) {
         />
         <meta
           property="og:image"
-          content="https://www.priyanshujain.vercel.app/Priyanshu.jpg"
+          content="https://www.priyanshujain.vercel.app/Priyanshu.webp"
         />
 
         <meta name="twitter:card" content="summary_large_image" />
@@ -83,7 +83,7 @@ export default function RootLayout({ children }) {
         />
         <meta
           name="twitter:image"
-          content="https://priyanshujain.vercel.app/Priyanshu.jpg"
+          content="https://priyanshujain.vercel.app/Priyanshu.webp"
         />
       </Head>
       <body className={`${jetBrains.variable} antialiased`}>

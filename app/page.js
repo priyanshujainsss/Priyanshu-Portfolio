@@ -19,7 +19,7 @@ export const metadata = {
     siteName: "Priyanshu Jain | React & Next.js Developer",
     images: [
       {
-        url: "https://www.priyanshujain.vercel.app/Priyanshu.jpg", // Use the absolute URL
+        url: "https://www.priyanshujain.vercel.app/Priyanshu.webp", // Use the absolute URL
         width: 1200,
         height: 630,
         alt: "Priyanshu Image",
