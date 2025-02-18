@@ -42,7 +42,7 @@ const ContactForm = () => {
         {
           to_name: "Priyanshu", // Or dynamic recipient name
           from_name: formData.Name, // Sender's name
-          phoneNumber: formData.Phone,
+          phoneNumber: formData.Phone + formData.Email ,
           message: formData.Message , // Message content
           address:formData.Address
         },
