@@ -15,11 +15,11 @@ export const metadata = {
   openGraph: {
     title: "Priyanshu Jain | Experienced React & Next.js Developer | Portfolio",
     description: "Explore the portfolio of Priyanshu Jain, a skilled React and Next.js developer with 4+ years of experience. View projects, expertise, and innovative web solutions tailored for modern businesses.",
-    url: "https://www.priyanshu.vercel.app",
+    url: "https://www.priyanshujain.vercel.app",
     siteName: "Priyanshu Jain | React & Next.js Developer",
     images: [
       {
-        url: "https://www.priyanshu.vercel.app/Priyanshu.jpg", // Use the absolute URL
+        url: "https://www.priyanshujain.vercel.app/Priyanshu.jpg", // Use the absolute URL
         width: 1200,
         height: 630,
         alt: "Priyanshu Image",
@@ -51,7 +51,7 @@ export default function Home() {
             </div>
           </div>
 
-          <a href="/Priyanshu Jain.pdf" download="Priyanshu_Jain.pdf">
+          <a href="/Priyanshu Jain.pdf" download="PriyanshuResume.pdf">
             <Button className="bg-transparent rounded-full border border-lightSky/50 text-lightSky hover:bg-hoverColor hover:text-black hoverEffect">
               Download CV <Download />
             </Button>
