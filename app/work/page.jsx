@@ -22,6 +22,8 @@ import Link from "next/link";
 import React, { useState } from "react";
 import Project1 from "@/images/Project1.jpg"
 import Project2 from "@/images/Project2.jpeg"
+import Project3 from "@/images/Project3.png"
+
 
 const projects = [
   {
@@ -42,6 +44,16 @@ const projects = [
     image:
     Project2,
     liveUrl: "https://www.ainsvf.org/",
+  },
+  {
+    id: "03",
+    title: "3d Portfolio",
+    category: "Frontend",
+    description: "djbfjdfndf,d f",
+    stack: ["Next.js", "Tailwind CSS" ,"React Js"],
+    image:
+    Project3,
+    liveUrl: "https://priyanshujain-portfolio.netlify.app/",
   },
 ];
 const Work = () => {

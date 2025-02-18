@@ -37,32 +37,81 @@ const buttonsContent = {
       {
         role: "Solution Engineer",
         company: "Gammastack",
-        period: "Nov-2024 - Present",
-        description: "sdsds",
-        highlights: ["React", "Next Js", "Typescript", "Team Leadership"],
+        period: "Nov 2024 – Present",
+        description: [
+          "Spearheading the development of scalable and high-performance web applications using React, Next.js, and TypeScript.",
+          "Leading a team of developers, ensuring efficient code reviews and best practices in front-end architecture.",
+          "Collaborating with stakeholders to design and implement tailored solutions for business needs.",
+          "Enhancing application performance and optimizing web solutions for better SEO and accessibility."
+        ],
+        highlights: [
+          "React", 
+          "Next.js", 
+          "TypeScript", 
+          "Team Leadership", 
+          "Scalable Web Application Development",
+          "Performance Optimization",
+          "SEO and Accessibility Improvements"
+        ]
       },
       {
-        role: "React Js Developer",
+        role: "React.js Developer",
         company: "Devstree IT Service Pvt. Ltd.",
-        period: "Jan-2023 - Nov-2024",
-        description: "sdsds",
-        highlights: ["React", "Next Js", "Typescript", "Team Leadership"],
+        period: "Jan 2023 – Nov 2024",
+        description: [
+          "Developed and maintained dynamic single-page applications (SPA) using React.js and Next.js.",
+          "Integrated third-party APIs and services to enhance functionality and user experience.",
+          "Led front-end development efforts, ensuring code reusability and performance optimization.",
+          "Worked closely with UI/UX designers to implement responsive and accessible interfaces."
+        ],
+        highlights: [
+          "React", 
+          "Next.js", 
+          "TypeScript", 
+          "API Integration", 
+          "Performance Optimization", 
+          "UI/UX Collaboration"
+        ]
       },
       {
         role: "Associate Technology",
         company: "Publicis Sapient",
-        period: "Nov-2021 - Dec-2022",
-        description: "sdsds",
-        highlights: ["React", "Next Js", "Typescript", "Team Leadership"],
+        period: "Nov 2021 – Dec 2022",
+        description: [
+          "Developed enterprise-level applications with React and Next.js, ensuring scalability and maintainability.",
+          "Contributed to Agile development cycles, participating in sprint planning and daily stand-ups.",
+          "Optimized front-end performance by implementing lazy loading, memoization, and server-side rendering (SSR).",
+          "Worked with cross-functional teams to deliver high-quality solutions on time."
+        ],
+        highlights: [
+          "React", 
+          "Next.js", 
+          "TypeScript", 
+          "Enterprise-Level Application Development", 
+          "Agile Methodology", 
+          "Performance Optimization"
+        ]
       },
       {
         role: "Software Engineer",
         company: "Source Soft Solutions Pvt. Ltd.",
-        period: "Mar-2021 - Nov-2024",
-        description: "sdsds",
-        highlights: ["React", "Next Js", "Typescript", "Team Leadership"],
-      },
-    ],
+        period: "Mar 2021 – Nov 2021",
+        description: [
+          "Built and maintained React applications, implementing modern front-end technologies.",
+          "Designed reusable components and optimized front-end workflows for better efficiency.",
+          "Collaborated with back-end developers to integrate APIs and enhance functionality.",
+          "Provided technical support and mentorship to junior developers."
+        ],
+        highlights: [
+          "React", 
+          "Next.js", 
+          "TypeScript", 
+          "Component-Based Architecture", 
+          "API Integration", 
+          "Mentorship & Code Reviews"
+        ]
+      }
+    ]
   },
   education: {
     title: "Educational Background",
@@ -86,38 +135,47 @@ const buttonsContent = {
     categories: [
       {
         name: "Frontend Development",
-
         description:
-          "Foundation in computer science principles, data structures, and algorithms.",
+          "Proficient in building interactive, high-performance, and scalable front-end applications with modern frameworks and libraries.",
         skills: [
           "React",
           "Next.js",
-          "Typescript",
-          "taoilwind CSS",
-          "Framer motion",
-        ],
+          "TypeScript",
+          "Tailwind CSS",
+          "Framer Motion",
+          "Redux",
+          "React Query"
+        ]
       },
       {
         name: "Backend Development",
-
         description:
-          "Foundation in computer science principles, data structures, and algorithms.",
+          "Experienced in designing and developing RESTful APIs, microservices, and backend solutions with scalable architectures.",
         skills: [
-          " Node.js",
-          "    Express",
-          " Python",
-          " PostgreSQL",
+          "Node.js",
+          "Express.js",
+      
+          "PostgreSQL",
           "MongoDB",
-        ],
+         
+          "GraphQL"
+        ]
       },
       {
-        name: "Tools & Others",
-
+        name: "Tools & DevOps",
         description:
-          "Foundation in computer science principles, data structures, and algorithms.",
-        skills: ["Git", "Docker", "AWS", "CI/CD", "Agile Methodologies"],
-      },
-    ],
+          "Hands-on experience with development tools, cloud services, and deployment pipelines for efficient software delivery.",
+        skills: [
+          "Git",
+          "Docker",
+          "AWS",
+          "CI/CD",
+          "Jenkins",
+          "Agile Methodologies",
+          "JIRA"
+        ]
+      }
+    ]
   },
   aboutme: {
     title: "About Priyanshu Jain",
