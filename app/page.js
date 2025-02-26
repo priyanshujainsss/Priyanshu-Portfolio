@@ -51,7 +51,7 @@ export default function Home() {
             </div>
           </div>
 
-          <a href="/Priyanshu Jain.pdf" download="PriyanshuResume.pdf">
+          <a href="/PriyanshuResume.pdf" download="PriyanshuResume.pdf">
             <Button className="bg-transparent rounded-full border border-lightSky/50 text-lightSky hover:bg-hoverColor hover:text-black hoverEffect">
               Download CV <Download />
             </Button>
