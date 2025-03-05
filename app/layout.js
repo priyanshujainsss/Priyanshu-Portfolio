@@ -6,7 +6,7 @@ import StairTransition from "@/components/ui/StairTransition";
 import { Toaster } from "@/components/ui/toaster";
 import DevToolsBlocker from "@/components/DevToolBlocker";
 import Head from "next/head";
-
+import { Analytics } from '@vercel/analytics/next';
 const jetBrains = localFont({
   src: "./fonts/Jetbrains.woff2",
   variable: "--font-jetbrains",
@@ -93,6 +93,7 @@ export default function RootLayout({ children }) {
         <StairTransition />
         <PageTransition>{children}</PageTransition>
         <Toaster />
+        <Analytics />
       </body>
     </html>
   );
