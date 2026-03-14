@@ -23,7 +23,7 @@ export const navbarData = [
 
 export const statsData = [
   {
-    num: 4,
+    num: 5,
     title: "Years of experience",
   },
   {
@@ -35,7 +35,7 @@ export const statsData = [
     title: "Technlogies mastered",
   },
   {
-    num: 500,
+    num: 700,
     title: "Code commits",
   },
 ];
